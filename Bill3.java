@@ -8,9 +8,9 @@ public class  Bill3{
 	    String MoneyString = args[3];
 		int moneyInt = Integer.parseInt(MoneyString) ;
 		double MoneyValue = (double) moneyInt;  
-		System.out.println( name3 +" " + name2 + " and " + name1 + 
+		System.out.println("Dear " + name3 + ", " + name2 + ", and" + name1 + 
 		
-		" needs to pay " + Math.ceil(MoneyValue/3)+ " Shekels Each"); 
+		": pay" + Math.ceil(MoneyValue/3)+ " Shekels Each"); 
 		
 
 
