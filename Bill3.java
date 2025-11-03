@@ -7,8 +7,11 @@ public class  Bill3{
 		String name3 = args[2];
 	    String MoneyString = args[3];
 		int moneyInt = Integer.parseInt(MoneyString);
-		double MoneyValue = Math.ceil(moneyInt)/3; 
-		System.out.println( name1 +" " + name2 + " and " + name3 + " needs to pay " + MoneyValue + " Shekels Each"); 
+		double MoneyValue = (int) Math.ceil(moneyInt)/3; 
+		
+		System.out.println( name1 +" " + name2 + " and " + name3 + 
+		
+		" needs to pay " + MoneyValue + " Shekels Each"); 
 		
 
 

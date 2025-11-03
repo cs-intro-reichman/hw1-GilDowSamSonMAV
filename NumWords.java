@@ -5,7 +5,7 @@ public class NumWords {
 		int Number2 = (Number/100) ;
 		int Number3 = (Number/10)%10 ;
 		int Number4 = (Number%10) ; 
-		System.out.print(Number2 + " hundreds, " + Number3 + " tens, and " + Number4 + " ones") ;
+		System.out.print(Number2 + " hundreds, " + Number3 + " tens, and " + Number4 + " ones.") ;
 
 		
 
