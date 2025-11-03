@@ -5,11 +5,11 @@ public class FVCalc {
 		double IntersetRate = (Double.parseDouble(args[1]));
 		int NumberOfYears = Integer.parseInt(args[2]);
 	    
-		double FutureValue = (currentValue * (Math.pow((IntersetRate + 1 ), NumberOfYears))); 
+		double FutureValue = (currentValue * (Math.pow((IntersetRate/100 + 1  ), NumberOfYears))); 
 		
 		System.out.println("After " + NumberOfYears + " years $" + currentValue + " saved at " + 
 		
-		IntersetRate + "%" + " will yield " + (int) FutureValue/100 + "$" ) ;
+		IntersetRate + "%" + " will yield " + (int) FutureValue + "$" ) ;
  
 
 
