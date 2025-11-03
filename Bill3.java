@@ -10,7 +10,7 @@ public class  Bill3{
 		double MoneyValue = (double) moneyInt;  
 		System.out.println("Dear " + c + ", " + b + ", and " + a + 
 		
-		": pay " + Math.ceil(MoneyValue/3)+ " Shekels Each."); 
+		": pay " + Math.ceil(MoneyValue/3)+ " Shekels each."); 
 		
 
 
