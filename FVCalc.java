@@ -9,7 +9,7 @@ public class FVCalc {
 		
 		System.out.println("After " + NumberOfYears + " years $" + currentValue + " saved at " + 
 		
-		IntersetRate + "%" + " will yield " + (int) FutureValue + "$" ) ;
+		IntersetRate + "%" + " will yield " + "$" + (int) FutureValue  ) ;
  
 
 
